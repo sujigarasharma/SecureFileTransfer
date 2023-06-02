@@ -6,17 +6,13 @@ Secure File Transmission Using Vigenère Cipher and SHA-512 Hashing Algorithm
 
 
 # MODULES
-Main Class
-This class will contain the main method to start the application. It creates an instance of the GUI class and makes it visible.
+Main Class : This class will contain the main method to start the application. It creates an instance of the GUI class and makes it visible.
 
-FileTransferGUI
-This class extends Frame and represents the main GUI window. It includes the components like labels, text fields, buttons, and text areas. It handles user actions, such as authentication, file selection, encryption, and decryption. It also contains methods for hashing passwords and encrypting/decrypting files.
+FileTransferGUI : This class extends Frame and represents the main GUI window. It includes the components like labels, text fields, buttons, and text areas. It handles user actions, such as authentication, file selection, encryption, and decryption. It also contains methods for hashing passwords and encrypting/decrypting files.
 
-FileEncryptor
-This class handles the encryption of files using the Vigenere cipher. It includes methods for encrypting and decrypting byte arrays.
+FileEncryptor : This class handles the encryption of files using the Vigenere cipher. It includes methods for encrypting and decrypting byte arrays.
 
-SHA512Hasher
-This class provides methods for hashing passwords using the SHA-512 algorithm.
+SHA512Hasher : This class provides methods for hashing passwords using the SHA-512 algorithm.
 
 
 # OUTPUT
@@ -46,15 +42,15 @@ Decrypt File: Original File
 <img width="451" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/ebbee445-9234-4a2b-91ed-9a5fdb2d1c47">
 
 Original Audio File
-<img width="273" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/7acb1401-8078-4f0b-9e88-abb6571c07fa">
+<img width="451" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/7acb1401-8078-4f0b-9e88-abb6571c07fa">
 
 Encrypted Audio File
-<img width="323" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/786abbcf-be02-4e97-a08d-1aa699ca2574">
+<img width="451" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/786abbcf-be02-4e97-a08d-1aa699ca2574">
 
 Decryption Audio File: Another user
-<img width="334" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/534f95b2-a8ad-44bc-974f-f45ee5a96378">
+<img width="451" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/534f95b2-a8ad-44bc-974f-f45ee5a96378">
 
 Decryption Audio File: Same user
-<img width="323" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/3c901c9c-407c-4808-9395-2d31fec81014">
+<img width="451" alt="image" src="https://github.com/sujigarasharma/SecureFileTransfer/assets/114681230/3c901c9c-407c-4808-9395-2d31fec81014">
 
 
